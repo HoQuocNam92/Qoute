@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+hmtl {
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+/* Nav */
+
+.active {
+    display: block !important;
+
+}
+
+.showMenu {
+    display: block !important;
+    ;
+}
+
+#nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    display: none;
+}
+
+#nav a {
+    padding: 12px 24px;
+    display: inline-block;
+    font-size: 18px;
+    color: #000;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+#nav i:hover,
+#nav a:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+#nav i {
+    float: right;
+    font-size: 18px;
+    color: #fff;
+    padding: 12px 24px;
+    cursor: pointer;
+
+}
+
+/* Header */
+
+#header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+}
+
+.navbar {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    background-color: #f44336;
+    font-size: 0;
+}
+
+.navbar a {
+    display: block;
+
+}
+
+.special {
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.special:hover {
+    background-color: #ccc !important;
+    color: #000 !important;
+}
+
+.navbar .link {
+    font-size: 18px;
+    padding: 12px 24px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 200;
+}
+
+.navbar .link:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+
+
+/* Banner */
+
+#banner {
+    background-color: #f44336;
+    padding: 128px 16px;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-title {
+    font-size: 64px;
+    margin: 16px;
+    font-weight: 300;
+}
+
+.hero-author {
+    font-size: 24px;
+    margin: 24px 0;
+}
+
+.send-btn {
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    margin-top: 16px;
+    background-color: #000;
+    color: #fff;
+}
+
+.send-btn:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+
+
+
+
+/* Content*/
+
+#content {}
+
+.content-section {
+    padding: 64px 16px;
+}
+
+.section-container {
+    display: grid;
+    width: 980px;
+    max-width: 100%;
+    grid-template-columns: 70% 30%;
+    margin: 0 auto;
+}
+
+.coffee {
+    background-color: rgb(241, 241, 241);
+    grid-template-columns: 30% 70% !important;
+
+}
+
+.icons {
+    padding: 64px 0;
+    text-align: center;
+}
+
+.icons i {
+    color: rgb(244, 67, 54);
+    font-size: 200px;
+}
+
+.context h1 {
+    margin: 10px 0;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.context h5 {
+    margin: 10px 0;
+    font-size: 18px;
+    padding: 36px 0;
+    font-weight: 300;
+}
+
+.context p {
+    margin: 15px 0;
+    opacity: 0.4;
+    font-size: 15px;
+}
+
+
+
+
+
+/* Slogan */
+.slogan p {
+    padding: 64px 16px;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.6;
+    text-align: center;
+    font-size: 15px;
+}
+
+#footer p {
+    padding: 64px 16px;
+    color: #000;
+    text-align: center;
+    font-size: 15px;
+}

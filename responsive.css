@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    #header .navbar {
+        display: none !important;
+    }
+
+    .navbar-toggle {
+        display: none;
+    }
+
+
+
+    #nav {
+        display: block !important;
+    }
+
+    .section-container {
+        display: block !important;
+    }
+}
